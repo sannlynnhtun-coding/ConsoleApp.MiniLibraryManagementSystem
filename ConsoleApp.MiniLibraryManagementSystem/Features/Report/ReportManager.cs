@@ -1,4 +1,5 @@
 ﻿using ConsoleApp.MiniLibraryManagementSystem.Features.Book;
+using ConsoleApp.MiniLibraryManagementSystem.Features.User;
 
 namespace ConsoleApp.MiniLibraryManagementSystem.Features.Report;
 
@@ -6,9 +7,9 @@ public class ReportManager
 {
     private List<BookDto> books;
     private List<LendingDto> lendings;
-    private List<User> users;
+    private List<UserDto> users;
 
-    public ReportManager(List<BookDto> books, List<LendingDto> lendings, List<User> users)
+    public ReportManager(List<BookDto> books, List<LendingDto> lendings, List<UserDto> users)
     {
         this.books = books;
         this.lendings = lendings;
